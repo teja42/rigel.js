@@ -1,0 +1,13 @@
+# Intro
+Rigel is a SPA framework.
+If you want to use rigel.js in anypage it has to contain a package.json 
+
+# Modules -> A module is a seperate web page that is included in one or more areas.
+Rigel uses a package.json to keep track of modules and their version.
+You can set it up by defining a meta tage like this :
+   
+   <meta name="Rigel-package" content="content of package.json here">
+
+Loading a module : 
+
+   let module = new Rigel.

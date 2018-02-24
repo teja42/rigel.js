@@ -1,0 +1,1 @@
+document.write("I hope i can access the parent DOM");
